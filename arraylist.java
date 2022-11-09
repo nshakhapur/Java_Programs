@@ -15,8 +15,9 @@ public class arraylist
         arr.add("Science");
         arr.add(3.0);
         arr.add(100);
-        System.out.println("Array List 1 is +"list1);
-        System.out.println("Array List 2 is +"arr);
+        System.out.println("Array List 1 is "+list1);
+        System.out.println();
+        System.out.println("Array List 2 is "+arr);
         System.out.println("Enter an element to be searched in list 1: ");
         String search=sc.nextLine();
         if(list1.contains(search))
